@@ -1,0 +1,16 @@
+pip install flask-sqlalchemy
+
+__init__ file will consider will package
+
+create database
+
+python 
+
+from market import db
+db.create_all()
+from market import Item
+item1 = Item(name="Iphone 10" , price=500,barcode='255s5s5',description='desc')
+
+db browser for sqlite
+
+pip install flask-wtf
